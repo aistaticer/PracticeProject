@@ -4,14 +4,15 @@
 	// 詳細情報は次を確認してください: https://go.microsoft.com/fwlink/?linkid=830387
 	"version": "0.2.0",
 	"configurations": [
-
+		
+		// デバック用
 		{
-      "type": "java",
-      "name": "Attach to Spring Boot (Docker)",
-      "request": "attach",
-      "hostName": "localhost",
-      "port": 5005
-    },
+			"type": "java",
+			"name": "Attach to Spring Boot (Docker)",
+			"request": "attach",
+			"hostName": "localhost",
+			"port": 5005
+		},
 
 		{
 			"type": "java",
